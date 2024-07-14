@@ -1,0 +1,28 @@
+/* 文章页背景 */
+.layout_post>#post {
+    /* 以下代表透明度为0.5 可以自行修改*/
+    background: rgba(141, 244, 155,1)
+}
+
+/* 所有页面背景 */
+#aside_content .card-widget, #recent-posts>.recent-post-item, .layout_page>div:first-child:not(.recent-posts), .layout_post>#page, .layout_post>#post, .read-mode .layout_post>#post{
+    /* 以下代表透明度为0.5 */
+    background: rgba(199, 237, 204, 0.5);
+}
+
+
+/* 文章页面与主页渐变 */
+#web_bg {
+      background: linear-gradient(to right, #C7EDCC, #C7EDCC);
+  }
+  /* background: #a8ff78;  /* fallback for old browsers */
+  /* background: -webkit-linear-gradient(to right, #78ffd6, #a8ff78);  /* Chrome 10-25, Safari 5.1-6 */
+  /* background: linear-gradient(to right, #78ffd6, #a8ff78); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+
+   */ 
+
+
+/* 加载动画 */
+/* .loading-img {
+    background: url(https://blog.aqcoder.cn/img/avatar.png) no-repeat center center;
+    background-size: cover;
+} */
