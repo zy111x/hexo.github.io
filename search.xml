@@ -39,13 +39,13 @@
             
             <tag> 学习笔记 </tag>
             
+            <tag> Pages </tag>
+            
             <tag> Github </tag>
             
             <tag> 博客搭建 </tag>
             
             <tag> Hexo </tag>
-            
-            <tag> Pages </tag>
             
             <tag> Git </tag>
             
@@ -82,9 +82,9 @@
             
             <tag> 博客 </tag>
             
-            <tag> Pages </tag>
-            
             <tag> Cloudflare </tag>
+            
+            <tag> Pages </tag>
             
             <tag> 图床 </tag>
             
@@ -124,6 +124,47 @@
             <tag> 学习笔记 </tag>
             
             <tag> 编辑格式 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>油猴插件的安装与使用</title>
+      <link href="/2023/07/14/%E6%B2%B9%E7%8C%B4%E6%8F%92%E4%BB%B6%E7%9A%84%E5%AE%89%E8%A3%85%E4%B8%8E%E4%BD%BF%E7%94%A8/"/>
+      <url>/2023/07/14/%E6%B2%B9%E7%8C%B4%E6%8F%92%E4%BB%B6%E7%9A%84%E5%AE%89%E8%A3%85%E4%B8%8E%E4%BD%BF%E7%94%A8/</url>
+      
+        <content type="html"><![CDATA[<!-- <div class="video-container">[up主专用，视频内嵌代码贴在这]</div><style>.video-container {    position: relative;    width: 100%;    padding-top: 56.25%; /* 16:9 aspect ratio (height/width = 9/16 * 100%) */}.video-container iframe {    position: absolute;    top: 0;    left: 0;    width: 100%;    height: 100%;}</style> --><h1 id="不同浏览器中油猴插件的安装与使用"><a href="#不同浏览器中油猴插件的安装与使用" class="headerlink" title="不同浏览器中油猴插件的安装与使用"></a>不同浏览器中油猴插件的安装与使用</h1><p><a href="https://www.tampermonkey.net/">Tampermonkey</a>（油猴）是一款免费的浏览器扩展和最为流行的用户脚本管理器，它适用于 Chrome, Microsoft Edge, Safari, Opera Next, 和 Firefox。<br>虽然有些受支持的浏览器拥有原生的用户脚本支持，但 Tampermonkey 将在您的用户脚本管理方面提供更多的便利。 它提供了诸如便捷脚本安装、自动更新检查、标签中的脚本运行状况速览、内置的编辑器等众多功能， 同时Tampermonkey还有可能正常运行原本并不兼容的脚本。</p><h2 id="一、了解油猴"><a href="#一、了解油猴" class="headerlink" title="一、了解油猴"></a>一、了解油猴</h2><h3 id="（一）基本介绍"><a href="#（一）基本介绍" class="headerlink" title="（一）基本介绍"></a>（一）基本介绍</h3><ol><li><p>英文名: <em>Tampermonkey</em></p></li><li><p>定义:可以自定义脚本的<strong>浏览器插件</strong>，也叫<strong>脚本管理器</strong>。</p></li><li><p>作用:用于拓展浏览器中的功能，使用户能够在浏览器中自由的开发或添加自己需要的功能。</p></li></ol><h3 id="（二）使用范围"><a href="#（二）使用范围" class="headerlink" title="（二）使用范围"></a>（二）使用范围</h3><p>需要搭配浏览器使用，同时还需要脚本的支撑。即“<strong>浏览器+脚本</strong>”，这是两个必不可少的因素，相关信息可参考下方↓</p><ol><li>常见的浏览器</li></ol><table><thead><tr><th>国内</th><th>国外</th></tr></thead><tbody><tr><td>QQ浏览器</td><td>Microsoft Edge</td></tr><tr><td>搜狗浏览器</td><td>Chrome（谷歌）</td></tr><tr><td>360浏览器</td><td>Firefox（火狐）</td></tr></tbody></table><ol start="2"><li>脚本的来源</li></ol><table><thead><tr><th>国内</th><th>国外</th></tr></thead><tbody><tr><td><a href="https://greasyfork.org/zh-CN">Greasy Fork</a></td><td>OpenUserJS</td></tr><tr><td>油猴中文网</td><td>UserscriPt.Zone</td></tr></tbody></table><p>【<strong>总结</strong>】通俗的说:浏览器就好像自家才通了水电气的厨房，只能通过水电气与外界相连。而油猴就是其中的一口锅，通过这口锅，你可以自由的烹饪食材，做出一-道自己喜欢的美食，也可以烹饪从外面获得的现成的美食，直接享用。</p><p><strong>注：</strong><br><em>脚本:可以实现- -定功能的代码或程序</em><br><em>插件:不同浏览器中有不同的称呼，如扩展、应用、程序等</em></p><hr><h2 id="二、油猴插件的安装"><a href="#二、油猴插件的安装" class="headerlink" title="二、油猴插件的安装"></a>二、油猴插件的安装</h2><h3 id="（一）选择浏览器"><a href="#（一）选择浏览器" class="headerlink" title="（一）选择浏览器"></a>（一）选择浏览器</h3><p>选择一款你喜欢的浏览器，可参考上方的“常见的浏览器”进行选择。本文为了方便起见，以MicrosoftEdge_浏览器为例进行演示</p><h3 id="（二）安装油猴插件"><a href="#（二）安装油猴插件" class="headerlink" title="（二）安装油猴插件"></a>（二）安装油猴插件</h3><ol><li>双击打开Microsoft Edge 浏览器</li></ol><p><img src="https://z.yxblog.dynv6.net/file/82aacb8563cd83b36768b.png"></p><ol start="2"><li>点击浏览器界面右上角“…” 样式的图标</li></ol><p><img src="https://z.yxblog.dynv6.net/file/ba0e76453122396bf3c0b.png"></p><ol start="3"><li>点击“<strong>扩展</strong>”</li></ol><p><img src="https://z.yxblog.dynv6.net/file/75123fd809831b8cd6abe.png"></p><ol start="4"><li>右上角弹窗点击“<strong>打开Microsoft Edge外接程序网站</strong>”</li></ol><p><img src="https://z.yxblog.dynv6.net/file/88bcb721f994858d82121.png"></p><ol start="5"><li>在搜索框中输入并搜索“<strong>Tampermonkey</strong>”（按Enter键）</li></ol><p><img src="https://z.yxblog.dynv6.net/file/473ffe45fa567e5566ee9.png"></p><ol start="6"><li>找到“Tempermonkey”，并点击<strong>获取</strong></li></ol><p><img src="https://z.yxblog.dynv6.net/file/9c1015778964a5752cca1.png"></p><ol start="7"><li>点击“<strong>添加扩展</strong>”</li></ol><p><img src="https://z.yxblog.dynv6.net/file/58c369fdbd929ae378e0a.png"></p><ol start="8"><li>自动下载（若迟迟未下载或下载卡顿，请<strong>检查网络</strong>）</li></ol><p><img src="https://z.yxblog.dynv6.net/file/c9d762afc1daaab44a606.png"></p><ol start="9"><li>安装成功</li></ol><p><img src="https://z.yxblog.dynv6.net/file/c9c8fde532f92015152e5.png"></p><hr><h2 id="三、管理油猴"><a href="#三、管理油猴" class="headerlink" title="三、管理油猴"></a>三、管理油猴</h2><h3 id="（一）设置油猴插件在浏览器工具栏中显示"><a href="#（一）设置油猴插件在浏览器工具栏中显示" class="headerlink" title="（一）设置油猴插件在浏览器工具栏中显示"></a>（一）设置油猴插件在浏览器工具栏中显示</h3><ol><li>重复安装油猴(一)中的步骤①-③，在右上角弹出对话框中点击Tampermonkey对应的“<strong>小眼睛</strong>”，以取消隐藏</li></ol><p><img src="https://z.yxblog.dynv6.net/file/694be93424e7face7d6db.png"></p><ol start="2"><li>当出现如图所示的图标时，表示取消隐藏成功</li></ol><p><img src="https://z.yxblog.dynv6.net/file/6fa854812cea4a1c5670d.png"></p><h3 id="二-管理或删除油猴插件"><a href="#二-管理或删除油猴插件" class="headerlink" title="(二)管理或删除油猴插件"></a>(二)管理或删除油猴插件</h3><ol><li>重复管理油猴(一)中的步骤①-②，并在弹出对话框中点击“<strong>管理扩展</strong>”</li></ol><p><img src="https://z.yxblog.dynv6.net/file/e3d73db6b10a701a13ef5.png"></p><ol start="2"><li>在以下界面，你可以对油猴插件进行管理。(<strong>开启、关闭或删除</strong>)</li></ol><p><img src="https://z.yxblog.dynv6.net/file/27e93786a3fa4aa69391d.png"></p><h3 id="（三）油猴插件的控制面板"><a href="#（三）油猴插件的控制面板" class="headerlink" title="（三）油猴插件的控制面板"></a>（三）油猴插件的控制面板</h3><ol><li>回到浏览器主页，在上文的基础上，点击右上角<strong>油猴插件的图标</strong></li></ol><p><img src="https://z.yxblog.dynv6.net/file/07d35d1cff882f0a04103.png"></p><ol start="2"><li>点击“<strong>管理面板</strong>”</li></ol><p><img src="https://z.yxblog.dynv6.net/file/9354845ee3f9d3a361cc6.png"></p><ol start="3"><li>在此处管理所安装的脚本</li></ol><hr><h2 id="四、使用油猴"><a href="#四、使用油猴" class="headerlink" title="四、使用油猴"></a>四、使用油猴</h2><h3 id="一-使用说明"><a href="#一-使用说明" class="headerlink" title="(一)使用说明"></a>(一)使用说明</h3><p>油猴插件的使用需要搭配不同的脚本才能在浏览器中发挥相应的功能，上文已经提到，你可以自己编写脚本(本文暂不讨论)，也可以使用网络上现成的脚本。</p><p>若要使用网络上现成的脚本，可以参考前面所提到的<a href="https://greasyfork.org/zh-CN">Greasy Fork</a>网站，那里有许多功能齐全的脚本，你可以根据自己的需求选择自己需要的脚本,并将它们下载安装到油猴插件中进行运行。</p><h3 id="二-安装脚本"><a href="#二-安装脚本" class="headerlink" title="(二)安装脚本"></a>(二)安装脚本</h3><ol><li>百度搜索<a href="https://greasyfork.org/zh-CN">Greasy Fork</a>并打开</li></ol><p><img src="https://z.yxblog.dynv6.net/file/00c29ee8c3ba0c3dd3d39.png"></p><ol start="2"><li>搜索你想要的脚本(<strong>想要在此浏览器中实现什么功能</strong>)</li></ol><p><img src="https://z.yxblog.dynv6.net/file/59a7ace58cfdf3c5ce773.png"></p><p><strong>注</strong>：<br><em>Greasy Fork 网站:你可以直接在百度中搜索，并找到它们的官方网站。</em></p><ol start="3"><li><p>选择一个喜欢的脚本并点击<strong>安装此脚本</strong>，之后请耐心等待至“<strong>安装</strong>”界面的出现</p></li><li><p>点击“<strong>安装</strong>”，安装成功后会自动跳回本步骤第一个流程</p></li></ol><h3 id="（三）测试脚本功能"><a href="#（三）测试脚本功能" class="headerlink" title="（三）测试脚本功能"></a>（三）测试脚本功能</h3><p>根据安装脚本的说明及需要自行测试即可</p><h3 id="（四）脚本的管理"><a href="#（四）脚本的管理" class="headerlink" title="（四）脚本的管理"></a>（四）脚本的管理</h3><p>进入油猴控制界面对脚本进行控制</p><p><img src="https://z.yxblog.dynv6.net/file/2dd6c9c0de42ad209860e.png"></p><hr><h2 id="五、关于"><a href="#五、关于" class="headerlink" title="五、关于"></a>五、关于</h2><p>本文旨在介绍油猴的安装与使用，因不同工具和脚本的功能各异，难以一一列出，若有不妥之处，请多多包涵。同时，文中所涉及的教程仅供参考，其具体情况还需要读者自行根据需求进行变通。最后，感谢各位读者的支持!</p><hr><h2 id="六、参考资料"><a href="#六、参考资料" class="headerlink" title="六、参考资料"></a>六、参考资料</h2><ol><li><a href="https://www.tampermonkey.net/">Tampermonkey</a></li><li><a href="https://greasyfork.org/zh-CN">Greasy Fork</a></li><li><a href="https://blog.csdn.net/qq_42951560/article/details/109233301">油猴（Tampermonkey）安装教程</a></li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> 学习 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 学习笔记 </tag>
+            
+            <tag> 浏览器 </tag>
+            
+            <tag> 脚本 </tag>
+            
+            <tag> 插件 </tag>
+            
+            <tag> 扩展 </tag>
+            
+            <tag> 效率 </tag>
+            
+            <tag> Greasy Fork </tag>
+            
+            <tag> Tampermonkey </tag>
+            
+            <tag> Microsoft Edge </tag>
             
         </tags>
       
