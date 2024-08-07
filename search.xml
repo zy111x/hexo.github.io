@@ -33,13 +33,17 @@
       
         <tags>
             
+            <tag> 博客 </tag>
+            
+            <tag> Markdown </tag>
+            
+            <tag> 学习笔记 </tag>
+            
             <tag> Github </tag>
             
             <tag> 博客搭建 </tag>
             
             <tag> Hexo </tag>
-            
-            <tag> 博客 </tag>
             
             <tag> Pages </tag>
             
@@ -52,10 +56,6 @@
             <tag> 免费托管 </tag>
             
             <tag> Node.js </tag>
-            
-            <tag> Markdown </tag>
-            
-            <tag> 学习笔记 </tag>
             
         </tags>
       
@@ -124,13 +124,17 @@
       
         <tags>
             
+            <tag> 博客 </tag>
+            
+            <tag> Markdown </tag>
+            
+            <tag> 学习笔记 </tag>
+            
             <tag> Github </tag>
             
             <tag> 博客搭建 </tag>
             
             <tag> Hexo </tag>
-            
-            <tag> 博客 </tag>
             
             <tag> Pages </tag>
             
@@ -143,10 +147,6 @@
             <tag> 免费托管 </tag>
             
             <tag> Node.js </tag>
-            
-            <tag> Markdown </tag>
-            
-            <tag> 学习笔记 </tag>
             
         </tags>
       
@@ -208,11 +208,11 @@
             
             <tag> 博客 </tag>
             
+            <tag> Markdown语法 </tag>
+            
             <tag> Markdown </tag>
             
             <tag> 学习笔记 </tag>
-            
-            <tag> Markdown语法 </tag>
             
             <tag> 编辑格式 </tag>
             
