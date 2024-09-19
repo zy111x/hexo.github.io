@@ -212,8 +212,6 @@
       
         <tags>
             
-            <tag> 学习笔记 </tag>
-            
             <tag> Github </tag>
             
             <tag> Hexo </tag>
@@ -227,6 +225,8 @@
             <tag> 静态网站 </tag>
             
             <tag> 个人网站 </tag>
+            
+            <tag> 学习笔记 </tag>
             
         </tags>
       
@@ -293,8 +293,6 @@
       
         <tags>
             
-            <tag> 学习笔记 </tag>
-            
             <tag> Github </tag>
             
             <tag> Hexo </tag>
@@ -308,6 +306,8 @@
             <tag> 静态网站 </tag>
             
             <tag> 个人网站 </tag>
+            
+            <tag> 学习笔记 </tag>
             
         </tags>
       
@@ -363,9 +363,9 @@
       
         <tags>
             
-            <tag> Markdown </tag>
-            
             <tag> 学习笔记 </tag>
+            
+            <tag> Markdown </tag>
             
         </tags>
       
