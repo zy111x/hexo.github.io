@@ -317,7 +317,14 @@
 
   
   <url>
-    <loc>https://example.com/tags/Github/</loc>
+    <loc>https://example.com/tags/%E5%8D%9A%E5%AE%A2/</loc>
+    <lastmod>2024-10-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/tags/%E9%AD%94%E6%94%B9/</loc>
     <lastmod>2024-10-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -331,7 +338,7 @@
   </url>
   
   <url>
-    <loc>https://example.com/tags/%E5%8D%9A%E5%AE%A2/</loc>
+    <loc>https://example.com/tags/Github/</loc>
     <lastmod>2024-10-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -367,13 +374,6 @@
   
   <url>
     <loc>https://example.com/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</loc>
-    <lastmod>2024-10-22</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://example.com/tags/%E9%AD%94%E6%94%B9/</loc>
     <lastmod>2024-10-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
