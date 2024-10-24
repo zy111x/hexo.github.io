@@ -424,13 +424,6 @@
   </url>
   
   <url>
-    <loc>https://example.com/tags/Tag-Plugins/</loc>
-    <lastmod>2024-10-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://example.com/tags/%E7%94%9F%E6%B4%BB/</loc>
     <lastmod>2024-10-24</lastmod>
     <changefreq>weekly</changefreq>
@@ -446,6 +439,13 @@
   
   <url>
     <loc>https://example.com/tags/%E6%84%9F%E6%82%9F/</loc>
+    <lastmod>2024-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/tags/Tag-Plugins/</loc>
     <lastmod>2024-10-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
