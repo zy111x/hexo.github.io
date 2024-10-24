@@ -1,42 +1,54 @@
-const startTimer = () => {
-    const oSpan = document.getElementsByTagName("timing")[0];
-    let startTime = localStorage.getItem("startTime"); // 从 localStorage 获取开始时间
-    let totalElapsedTime = parseInt(localStorage.getItem("elapsedTime") || "0"); // 获取累计时间
-    const currentTime = new Date().getTime(); // 当前时间
-  
-    if (!startTime) {
-        // 如果没有记录起始时间，设置当前时间为起始时间
-        startTime = currentTime;
-        localStorage.setItem("startTime", startTime);
-    } else {
-        // 计算离开网页时的时间差
-        totalElapsedTime += (currentTime - startTime);
-        localStorage.setItem("elapsedTime", totalElapsedTime); // 更新累计时间
+let oSpan = document.getElementsByTagName("timing")[0];
+let localhostTime = new Date();
+
+// 获取开始计时的时间（从localStorage中获取）
+function getStartTime() {
+    let savedTime = localStorage.getItem('startTime');
+    if (savedTime) {
+        return new Date(savedTime);
     }
-  
-    function tow(n) {
-        return n >= 0 && n < 10 ? '0' + n : '' + n;
-    }
-  
-    setInterval(function () {
-        const elapsed = totalElapsedTime + (new Date().getTime() - startTime); // 计算总的浏览时间
-        let second = Math.floor(elapsed / 1000); // 转换为秒
-        let hour = Math.floor(second / 3600); // 小时
-        second %= 3600; // 剩余秒数
-        let minute = Math.floor(second / 60); // 分钟
-        second %= 60; // 剩余秒数
-        
-        const str = tow(hour) + '<span class="time">小时</span>' 
-                    + tow(minute) + '<span class="time">分钟</span>' 
-                    + tow(second) + '<span class="time">秒</span>';
-        
-        oSpan.innerHTML = <b>友情提示🥳：</b> + "友情提示您已浏览网页" + str;; // 更新显示计时器
-    }, 1000);
-  
-    // 当页面卸载时，清除计时记录
-    window.onbeforeunload = () => {
-        localStorage.removeItem("startTime");
-        localStorage.removeItem("elapsedTime");
-    };
-  };
-  
+    return new Date();
+}
+
+// 存储当前时间为开始计时时间
+function setStartTime() {
+    let currentTime = new Date();
+    localStorage.setItem('startTime', currentTime);
+    return currentTime;
+}
+
+// 如果sessionStorage中有isNewSession，表示不是重新访问
+if (!sessionStorage.getItem('isNewSession')) {
+    // 新访问，刷新页面会更新时间
+    localhostTime = setStartTime();
+    sessionStorage.setItem('isNewSession', 'true'); // 标记会话活跃
+} else {
+    // 继续访问，不更新时间
+    localhostTime = getStartTime();
+}
+
+function tow(n) {
+    return n >= 0 && n < 10 ? '0' + n : '' + n;
+}
+
+setInterval(function () {
+    let goTime = new Date(); // 获取动态时间
+    let diffTime = goTime.getTime() - localhostTime.getTime();
+    var second = Math.floor(diffTime / 1000); // 总秒数
+    var hour = Math.floor(second / 3600); // 小时
+    second %= 3600;
+    var minute = Math.floor(second / 60); // 分钟
+    second %= 60;
+
+    // 构建时间字符串
+    var str = tow(hour) + '<span class="time">小时</span>'
+        + tow(minute) + '<span class="time">分钟</span>'
+        + tow(second) + '<span class="time">秒</span>';
+
+    oSpan.innerHTML = <b> 友情提示🎉：</b> + "您已浏览网页 " + str;
+}, 1000);
+
+// 页面关闭时清除sessionStorage标记，以便下次重新访问重新计时
+window.addEventListener('beforeunload', function () {
+    sessionStorage.removeItem('isNewSession');
+});
