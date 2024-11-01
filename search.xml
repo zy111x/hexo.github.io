@@ -82,6 +82,8 @@
       
         <tags>
             
+            <tag> 个人网站 </tag>
+            
             <tag> 学习笔记 </tag>
             
             <tag> 图床 </tag>
@@ -89,8 +91,6 @@
             <tag> serv00 </tag>
             
             <tag> Cloudflare </tag>
-            
-            <tag> 个人网站 </tag>
             
         </tags>
       
@@ -340,10 +340,6 @@
             
             <tag> Hexo </tag>
             
-            <tag> 学习笔记 </tag>
-            
-            <tag> 个人网站 </tag>
-            
             <tag> Github </tag>
             
             <tag> Pages </tag>
@@ -351,6 +347,10 @@
             <tag> Git </tag>
             
             <tag> 静态网站 </tag>
+            
+            <tag> 个人网站 </tag>
+            
+            <tag> 学习笔记 </tag>
             
         </tags>
       
@@ -392,10 +392,6 @@
             
             <tag> Hexo </tag>
             
-            <tag> 学习笔记 </tag>
-            
-            <tag> 个人网站 </tag>
-            
             <tag> Github </tag>
             
             <tag> Pages </tag>
@@ -403,6 +399,10 @@
             <tag> Git </tag>
             
             <tag> 静态网站 </tag>
+            
+            <tag> 个人网站 </tag>
+            
+            <tag> 学习笔记 </tag>
             
         </tags>
       
@@ -429,11 +429,11 @@
             
             <tag> 博客 </tag>
             
+            <tag> Pages </tag>
+            
             <tag> 图床 </tag>
             
             <tag> Cloudflare </tag>
-            
-            <tag> Pages </tag>
             
         </tags>
       
@@ -458,9 +458,9 @@
       
         <tags>
             
-            <tag> Markdown </tag>
-            
             <tag> 学习笔记 </tag>
+            
+            <tag> Markdown </tag>
             
         </tags>
       
