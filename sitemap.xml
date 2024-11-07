@@ -20,7 +20,7 @@
   </url>
   
   <url>
-    <loc>https://blog.291055.xyz/cookies/index.html</loc>
+    <loc>https://blog.291055.xyz/album/index.html</loc>
     
     <lastmod>2024-11-05</lastmod>
     
@@ -29,7 +29,7 @@
   </url>
   
   <url>
-    <loc>https://blog.291055.xyz/album/index.html</loc>
+    <loc>https://blog.291055.xyz/cookies/index.html</loc>
     
     <lastmod>2024-11-05</lastmod>
     
@@ -458,7 +458,21 @@
   </url>
   
   <url>
-    <loc>https://blog.291055.xyz/tags/Tag-Plugins/</loc>
+    <loc>https://blog.291055.xyz/tags/%E7%94%9F%E6%B4%BB/</loc>
+    <lastmod>2024-11-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.291055.xyz/tags/%E9%9A%8F%E7%AC%94/</loc>
+    <lastmod>2024-11-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.291055.xyz/tags/%E6%84%9F%E6%82%9F/</loc>
     <lastmod>2024-11-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -486,21 +500,7 @@
   </url>
   
   <url>
-    <loc>https://blog.291055.xyz/tags/%E7%94%9F%E6%B4%BB/</loc>
-    <lastmod>2024-11-07</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.291055.xyz/tags/%E9%9A%8F%E7%AC%94/</loc>
-    <lastmod>2024-11-07</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.291055.xyz/tags/%E6%84%9F%E6%82%9F/</loc>
+    <loc>https://blog.291055.xyz/tags/Tag-Plugins/</loc>
     <lastmod>2024-11-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
