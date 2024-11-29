@@ -1,3 +1,4 @@
+https://blog.291055.xyz/posts/5b3c.html
 https://blog.291055.xyz/friend.json
 https://blog.291055.xyz/posts/54ee.html
 https://blog.291055.xyz/posts/32968.html
@@ -62,6 +63,7 @@ https://blog.291055.xyz/tags/%E6%8F%92%E4%BB%B6/
 https://blog.291055.xyz/tags/Tampermonkey/
 https://blog.291055.xyz/tags/API/
 https://blog.291055.xyz/tags/%E6%8E%A5%E5%8F%A3/
+https://blog.291055.xyz/tags/R2/
 https://blog.291055.xyz/categories/%E5%AD%A6%E4%B9%A0/
 https://blog.291055.xyz/categories/%E5%8E%86%E5%8F%B2/
 https://blog.291055.xyz/categories/%E7%94%9F%E6%B4%BB/
